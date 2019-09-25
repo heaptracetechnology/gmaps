@@ -20,11 +20,6 @@ actions:
     output:
       type: object
       contentType: application/json
-      properties:
-        lat:
-          type: float
-        lon:
-          type: float
   reverse_geocode:
     http:
       path: /reverse_geocode
@@ -42,15 +37,6 @@ actions:
     output:
       type: object
       contentType: application/json
-      properties:
-        city:
-          type: string
-        state:
-          type: string
-        country:
-          type: string
-        full_response:
-          type: array
 environment:
   API_KEY:
     help: |
